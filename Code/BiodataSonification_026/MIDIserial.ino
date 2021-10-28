@@ -119,5 +119,3 @@ void midiSerial(int type, int channel, int data1, int data2) {
 		Serial.write(data2);
   sei(); //enable interrupts
 }
-
-
